@@ -19,11 +19,6 @@
 
 ## 📦 Installation
 
-```bash
-pip install sktime-xai
-```
-
-Or install from source:
 
 ```bash
 git clone https://github.com/sktime/sktime-xai.git
