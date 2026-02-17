@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sktime-xai"
+version = "0.1.0"
+description = "Explainable AI and Mechanistic Interpretability for Time Series in sktime"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "sktime>=0.26.0",
+    "shap>=0.44.0",
+    "pandas",
+    "numpy",
+    "matplotlib",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sktime/sktime-xai"
