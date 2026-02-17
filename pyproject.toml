@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/sktime/sktime-xai"
+"Homepage" = "https://github.com/punctualprocrastinator/sktime-xai"
