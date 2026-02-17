@@ -8,6 +8,8 @@
 - **Forecasting Explanation**:
     - `SHAPForecastExplainer`: Apply SHAP (Kernel/Permutation) to any sktime forecaster.
     - Visualize which past time steps contributed most to a future prediction.
+- **Classification Explanation**:
+    - `RocketExplainer`: Peek inside the ROCKET black box. Visualize the specific convolutional kernels that triggered a classification.
 - **Visualization**:
     - `plot_temporal_heatmap`: Intuitive heatmaps showing feature importance over time.
 
