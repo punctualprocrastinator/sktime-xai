@@ -35,7 +35,19 @@ env/
 # IDEs
 .vscode/
 .idea/
+.gemini/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Debug artifacts
+*.txt
+*.log
+*.png
+examples/hunt_*.py
+examples/inspect_*.py
+examples/debug_*.py
+examples/test_*.py
+examples/verify_*.py
+examples/read_*.py
