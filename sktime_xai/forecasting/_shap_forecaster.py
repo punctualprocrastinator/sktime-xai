@@ -43,7 +43,7 @@ class SHAPForecastExplainer(BaseExplainer):
         If X is a Series/DataFrame (the time series y), we treat it as the background
         distribution for the "features" (lags).
         """
-        # Note: This is a simplified "Speedrun" implementation.
+        # Note: This is a simplified  implementation.
         # In a full implementation, we'd inspect the forecaster's internal window length.
         
         # Assumption: Model is already fitted.
